@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "npm run dev",
+    "start": "npx http-server ./dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
