@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #5c8772;
+  --color-dark: #919191;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-dark);
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}

@@ -1,0 +1,31 @@
+.message-item-container {
+  display: flex;
+}
+
+.message-item-container--me {
+  justify-content: end;
+}
+
+.message-item__text {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+.message-item {
+  max-width: 80%;
+  background-color: #343f46;
+  color: white;
+  border-radius: 5px;
+  padding: 9px;
+  display: inline-block;
+}
+
+.message-item--me {
+  background-color: var(--color-primary);
+}
+
+.message-item__time {
+  margin-top: 10px;
+  display: inline-block;
+  color: #bebebe;
+}
